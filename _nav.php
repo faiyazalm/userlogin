@@ -15,19 +15,19 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/loginsystem/welcome.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="welcome.php">Home <span class="sr-only">(current)</span></a>
       </li>';
       if(!$loggedin){
         echo '<li class="nav-item">
-        <a class="nav-link" href="/loginsystem/login.php">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/loginsystem/signup.php">Sign Up</a>
+        <a class="nav-link" href="signup.php">Sign Up</a>
       </li>';
       }
       if($loggedin){
         echo '<li class="nav-item">
-        <a class="nav-link" href="/loginsystem/logout.php">Logout</a>
+        <a class="nav-link" href="logout.php">Logout</a>
       </li>';
       }
       
