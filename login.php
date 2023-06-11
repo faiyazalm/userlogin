@@ -76,7 +76,7 @@
     
     <div class="container">
       <h1 class="text-center">Login to our website</h1>
-      <form action="/loginsystem/login.php" method="post" class="d-flex align-items-center flex-column">
+      <form action="login.php" method="post" class="d-flex align-items-center flex-column">
           <div class="form-group col-6">
             <label for="fname" class="d-block text-center">First Name</label>
             <input
