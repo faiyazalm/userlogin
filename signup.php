@@ -99,7 +99,7 @@
     
     <div class="container mt-5 mb-5">
       <h1 class="text-center mb-3">Signup to our website</h1>
-      <form action="/loginsystem/signup.php" method="post" class="d-flex align-items-center flex-column">
+      <form action="signup.php" method="post" class="d-flex align-items-center flex-column">
       
           <div class="form-group col-6">
             <label for="fname">First Name</label>
